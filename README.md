@@ -4,6 +4,27 @@ Element to display circular avatars
 
 # Usage
 
+<!--
+```
+<custom-element-demo>
+  <template>
+    <script type="module" src="paper-avatar.js"></script>
+    <paper-avatar
+        img="https://picsum.photos/id/1027/200"
+        elevation="3"
+    ></paper-avatar>
+  </template>
+</custom-element-demo>
+```
+-->
+
+```html
+<paper-avatar
+  img="https://picsum.photos/id/1027/200"
+  elevation="3"
+></paper-avatar>
+```
+
 ## Installation
 
 ```

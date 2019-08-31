@@ -5,11 +5,26 @@ import "@polymer/paper-spinner/paper-spinner";
 import "@polymer/paper-styles/paper-styles";
 
 /**
- * `paper-avatar`
- * paper-avatar display circular avatars. You can either use an image or initials as avatar content. 
- * If you are giving an image, paper-avatar displays a paper-spinner as the image if getting loaded.
- * Always give a 1:1 image for good results.
- *
+ `paper-avatar`
+ paper-avatar display circular avatars. You can either use an image or initials as avatar content. 
+ If you are giving an image, paper-avatar displays a paper-spinner as the image if getting loaded.
+ Always give a 1:1 image for good results.
+ 
+ Example
+ <paper-avatar img="https://picsum.photos/id/1027/200"></paper-avatar>
+ 
+ ### Styling
+ The following custom properties and mixins are also available for styling:
+  
+ Custom property | Description | Default
+ ----------------|-------------|----------
+ `--size` | Height and width of avatar | `50px`
+ `--background-color` | Background color of avatar | `#3f51b5`
+ `--font-color` | Font color of initials | `#fff`
+ `--font-size` | Font size of initials | `14px`
+ `--fontFamily` | Font family of initials | `Calibri, sans-serif`
+ `--initial` | A mixin that is applied to initials | `{}`
+ 
  * @customElement
  * @group elifent
  * @element paper-avatar
