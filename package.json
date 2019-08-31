@@ -1,0 +1,35 @@
+{
+  "name": "@elifent/paper-avatar",
+  "description": "Element to display circular avatars",
+  "version": "3.0.0",
+  "main": "paper-avatar.js",
+  "keywords": [
+    "polymer.js",
+    "avatar",
+    "web-components"
+  ],
+  "author": "aneeshameed@elifent.tech",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elifent/paper-avatar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elifent/paper-avatar/issues"
+  },
+  "homepage": "https://github.com/elifent/paper-avatar#readme",
+  "dependencies": {
+    "@polymer/paper-ripple": "^3.0.1",
+    "@polymer/paper-spinner": "^3.0.2",
+    "@polymer/paper-styles": "^3.0.1",
+    "@polymer/polymer": "^3.0.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
+    "@polymer/test-fixture": "^4.0.2",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "wct-mocha": "^1.0.0-pre.3"
+  }
+}
