@@ -1,14 +1,14 @@
 # \<paper-avatar\>
 
-Element to display circular avatars
-
-# Usage
+### Element to display circular avatars
 
 <!--
 ```
+<script type="module">
+	import "https://npm-demos.appspot.com/@elifent/paper-avatar@3.0.1/paper-avatar.js"
+</script>
 <custom-element-demo>
   <template>
-    <script type="module" src="paper-avatar.js"></script>
     <paper-avatar
         img="https://picsum.photos/id/1027/200"
         elevation="3"
@@ -17,13 +17,6 @@ Element to display circular avatars
 </custom-element-demo>
 ```
 -->
-
-```html
-<paper-avatar
-  img="https://picsum.photos/id/1027/200"
-  elevation="3"
-></paper-avatar>
-```
 
 ## Installation
 
